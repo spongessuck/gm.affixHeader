@@ -3,6 +3,7 @@
 	angular.module('gm.affixHeader', [])
 	.directive('gmAffixHeader', affixHeader);
 
+	/* @ngInject */
 	function affixHeader($window, $compile, $timeout) {
 		return function(scope, elem, attrs) {
 			var fixedTable = elem.clone();
