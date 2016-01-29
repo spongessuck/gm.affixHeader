@@ -1,7 +1,7 @@
 {
   "name": "gm.affix-header",
   "description": "Angular 1 module to help \"affix\" headers of table elements when the user scrolls past them.",
-  "main": "src/gm.affixHeader.min.js",
+  "main": "src/gm.affixHeader.js",
   "authors": [
     "Gregory McGee"
   ],
