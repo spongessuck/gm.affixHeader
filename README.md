@@ -8,6 +8,10 @@ Angular 1 module to help "affix" headers of table elements when the user scrolls
 The directive creates a clone of the `table` element to which it's applied. It then removes everything but the `thead`, sizes the columns
 based on the source table, adds a `gm-affixed-table` class, and adds the directive specified in the attribute to the `table`.
 
+Include the module in your app to expose the `gmAffixHeader` directive:
+
+	angular.module('app', ['gm.affixHeader', 'ui.scrollpoint']);
+
 The following markup creates an affixed table that will use the AngularUI 'ui-scrollpoint' directive:
 
 	<table gm-affix-header='ui-scrollpoint'>
