@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+
+	<style>
+		.gm-affixed-table {
+			position:absolute;
+			visibility: hidden;
+			pointer-events: none;
+		}
+
+		.gm-affixed-table thead {
+			background-color: white;
+		}
+
+		/*.affix {*/
+		.ui-scrollpoint {
+			position:fixed;
+			visibility: inherit;
+			top:0px;
+		}
+	</style>
+
+	<script src='../bower_components/angular-ui-scrollpoint/dist/scrollpoint.min.js'></script>
+
+	<script src='../src/gm.affixHeader.js'></script>
+	<script src='app.js'></script>
+</head>
+<body ng-app='app'>
+	<h1>gm.affixHeader Example</h1>
+	<table class='table' gm-affix-header='ui-scrollpoint'>
+		<thead>
+			<th>Index</th>
+			<th>Value</th>
+		</thead>
+		<tr ng-repeat='datum in data'>
+			<td>{{$index}}</td>
+			<td>{{datum}}</td>
+		</tr>
+	</table>
+</body>
+</html>

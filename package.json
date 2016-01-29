@@ -1,0 +1,25 @@
+{
+  "name": "gm.affix-header",
+  "version": "0.0.1",
+  "description": "Angular 1 module to help \"affix\" headers of table elements when the user scrolls past them.",
+  "main": "src/gm.affixHeader.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spongessuck/gm.affixHeader.git"
+  },
+  "keywords": [
+    "angular",
+    "affix",
+    "table",
+    "header"
+  ],
+  "author": "Gregory McGee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spongessuck/gm.affixHeader/issues"
+  },
+  "homepage": "https://github.com/spongessuck/gm.affixHeader#readme"
+}
